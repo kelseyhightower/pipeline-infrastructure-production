@@ -1,3 +1,9 @@
+#
+# User-defined substitutions:
+#   _CLOUDSDK_COMPUTE_ZONE
+#   _CLOUDSDK_CONTAINER_CLUSTER
+#
+
 steps:
   # Generate a kubeconfig file for the given GKE cluster.
   - name: 'gcr.io/cloud-builders/kubectl'
